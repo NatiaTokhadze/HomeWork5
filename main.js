@@ -1,0 +1,41 @@
+// // Task1
+const divEl = document.createElement('div')
+divAtr = setAttribute('id', "task")
+const h2El = document.createElement('h2')
+const textEl = document.createTextNode('is working')
+
+divEl.append(h2El, textEl)
+const btn = document.getElementById('mybtn')
+btn.addEventListener("click", () => {
+    divEl.style.display = 'none'
+})
+
+
+// Task2
+const mydivEl = document.createElement('div')
+const myh2El = document.createElement('h2')
+const mytextEl = document.createTextNode('Gandalf')
+const aEl = document.createElement('a')
+const aHref = document.createAttributeNS("https://www.wikipedia.org/", "Go to profile")
+
+divEl = setAttribute('id', "card")
+aEl = setAttribute('href', "#")
+divEl.append(h2El, mytextEl, aEl, aHref)
+
+
+
+//Task3
+
+// const btn = document.getElementById('mybtn')
+// btn.onclick = function () {
+//     console.log('yes, it is working')
+// }
+
+const btn = document.getElementById('mybtn')
+btn.addEventListener("click", (e) => {
+    a.target.style.color = ''
+    a.target.backgraund = ''
+    h2El.style.color = ''
+    h2El.style.display = 'none'
+
+}) 
