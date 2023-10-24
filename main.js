@@ -18,9 +18,12 @@ const mytextEl = document.createTextNode('Gandalf')
 const aEl = document.createElement('a')
 const aHref = document.createAttributeNS("https://www.wikipedia.org/", "Go to profile")
 
-divEl = setAttribute('id', "card")
-aEl = setAttribute('href', "#")
-divEl.append(h2El, mytextEl, aEl, aHref)
+mydivEl = setAttribute('id', 'card')
+aEl = setAttribute('href', '#')
+myh2El.append(mytextEl)
+aEl.append(aHref)
+mydivEl.append(myh2El, mytextEl, aEl)
+document.body.append(mydivEl)
 
 
 
