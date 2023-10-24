@@ -40,3 +40,8 @@ const data = [
     const questionElement = document.getElementById("question")
     const optionsContainer = document.getElementById("options-container")
     const nextBtn = document.getElementById("next-btn")
+
+    let score = 0
+    let question = 0
+
+    function showQuestion(){
