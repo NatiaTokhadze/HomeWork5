@@ -44,4 +44,6 @@ const data = [
     let score = 0
     let question = 0
 
-    function showQuestion(){
+    function showQuestion()
+    {
+     let currentdata = quizData[question]
