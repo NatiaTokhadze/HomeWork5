@@ -29,16 +29,14 @@ document.body.append(mydivEl)
 
 //Task3
 
-// const btn = document.getElementById('mybtn')
-// btn.onclick = function () {
-//     console.log('yes, it is working')
-// }
+const data = [
+    {
+        question: ,
+        answers:[],
+        correct: .
+    }
 
-const btn = document.getElementById('mybtn')
-btn.addEventListener("click", (e) => {
-    a.target.style.color = ''
-    a.target.backgraund = ''
-    h2El.style.color = ''
-    h2El.style.display = 'none'
 
-}) 
+    const questionElement = document.getElementById("question")
+    const optionsContainer = document.getElementById("options-container")
+    const nextBtn = document.getElementById("next-btn")
